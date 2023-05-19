@@ -16,10 +16,16 @@
 ### Requirements
 
 - bash
-- wget
+- git
 - yt-dlp
 - ffmpeg
 - wget
+- 十分なストレージ容量
+
+まず、このリポジトリをcloneします。WSLにて実行する場合、WSL内ではなくWindows上のディレクトリにて行うことをお勧めします。
+```
+git clone https://github.com/kenh0u/nono_list.git
+```
 
 ### download_allvideos.sh
 
@@ -30,15 +36,17 @@ sudo pip install yt-dlp
 sudo apt install ffmpeg
 ```
 
-メンバーシップ限定配信アーカイブもダウンロードしたい場合、
+メンバーシップ限定配信アーカイブもダウンロードしたい場合、極上プランに加入した上で
 Chrome拡張機能[Get cookies.txt LOCALLY](https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc)
-などを使用してYouTubeのCookieを抜き取り、`youtube.com_cookies.txt`として配置してからスクリプトを実行します。
+などを使用してYouTubeのCookieを抜き取り、`youtube.com_cookies.txt`として配置してください。
+
+スクリプトを実行します。
 
 ```
 ./download_allvideos.sh
 ```
 
-実行時のログは`download_allthumbnails.sh`に保存されます。
+ファイルは`video`ディレクトリ以下、ログは`download_allthumbnails.sh`に保存されます。
 
 ### download_allthumbnails.sh
 
@@ -48,4 +56,4 @@ Chrome拡張機能[Get cookies.txt LOCALLY](https://chrome.google.com/webstore/d
 ./download_allthumbnails.sh
 ```
 
-実行時のログは`download_allthumbnails.log`に保存されます。
+ファイルは`thumbnail`ディレクトリ以下、ログは`download_allthumbnails.log`に保存されます。
