@@ -21,7 +21,7 @@
 - ffmpeg
 - wget
 
-#### download_allvideos.sh
+### download_allvideos.sh
 
 yt-dlpとffmpegをインストール (Ubuntuの場合のコマンド例)
 
@@ -40,7 +40,7 @@ Chrome拡張機能[Get cookies.txt LOCALLY](https://chrome.google.com/webstore/d
 
 実行時のログは`download_allthumbnails.sh`に保存されます。
 
-#### download_allthumbnails.sh
+### download_allthumbnails.sh
 
 スクリプトを実行します。
 
