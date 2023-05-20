@@ -46,7 +46,7 @@ Chrome拡張機能[Get cookies.txt LOCALLY](https://chrome.google.com/webstore/d
 ./download_allvideos.sh
 ```
 
-ファイルは`video`ディレクトリ以下、ログは`download_allthumbnails.sh`に保存されます。
+ファイルは`video`ディレクトリ以下、ログは`download_allvideos.log`に保存されます。
 
 ### download_allthumbnails.sh
 
