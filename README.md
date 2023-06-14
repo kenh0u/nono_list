@@ -9,6 +9,7 @@
 - list.json: 全てのvideoId,publishedAt,titleのリスト
 - videoids.txt: 全てのvideoId、1行ずつのリスト
 - download_allvideos.sh: yt-dlpを使用し全動画,配信アーカイブをダウンロードするシェルスクリプト
+- download_allchats.sh: yt-dlpを使用し全動画,配信アーカイブのチャット,コメントをダウンロードするシェルスクリプト
 - download_allthumbnails.sh: wgetを使用し全動画,配信アーカイブのサムネイルをダウンロードするシェルスクリプト
 
 ## Usage of Scripts
@@ -47,6 +48,16 @@ Chrome拡張機能[Get cookies.txt LOCALLY](https://chrome.google.com/webstore/d
 ```
 
 ファイルは`video`ディレクトリ以下、ログは`download_allvideos.log`に保存されます。
+
+### download_allchats.sh
+
+スクリプトを実行します。
+
+```
+./download_allchats.sh
+```
+
+ファイルは`chat`ディレクトリ以下、ログは`download_allchats.log`に保存されます。
 
 ### download_allthumbnails.sh
 
