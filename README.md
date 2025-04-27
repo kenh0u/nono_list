@@ -1,9 +1,5 @@
 # nono_list
 
-[彩雲のの](https://www.youtube.com/channel/UCtKH7ZHAJ7TcTjyiLJRHhvg)の全動画,配信アーカイブのリストとダウンロードスクリプト
-
-リストの抜けや不具合等を発見した場合、遠慮なく[Issues](https://github.com/kenh0u/nono_list/issues)にてご連絡ください。
-
 ## Description
 
 - list.json: 全てのvideoId,publishedAt,titleのリスト
